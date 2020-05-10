@@ -1,0 +1,30 @@
+.yukam_note{
+   display: inline-block;
+   padding: 5px;
+   background-color: #F05;
+   color:#FFF;
+   font-size: 24px;
+   border: 1px solid #F4F4F4;
+}
+
+.yukam_note.yukam_icon::before{
+   content: url('../images/icon-yuka-20x20.png');
+   width: 20px;
+   height: 20px;
+   margin-right: 5px;
+}
+
+.yukam_note.yukam_mauvais{
+   background-color: #FD0202;
+}
+.yukam_note.yukam_mediocre{
+   background-color: #FEC104;
+}
+.yukam_note.yukam_bon{
+   background-color: #8FD347;
+}
+.yukam_note.yukam_excellent{
+   background-color: #08AC52;
+}
+
+.
